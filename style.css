@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.head-icon i {
+    font-size: 22px;
+    padding-right: 20px;
+    color: #000;
+}
+
+.carousel-item img {
+    max-height: 600px;
+}
+
+.carousel-one .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    /* Set the desired height */
+}
+
+.carousel-one .item img {
+    max-height: 100px;
+    /* Adjust max height as needed */
+    width: auto;
+    /* Keep the width proportional */
+    object-fit: contain;
+    /* Ensures the image scales well */
+}
+
+.owl-dots {
+    display: none !important;
+}
+
+.carousel-two .card {
+    width: 300px;
+    height: 300px;
+    /* Set a fixed height for all cards */
+    position: relative;
+    overflow: hidden;
+    border: none !important;
+}
+
+.carousel-two .card .card-img {
+    height: 100%;
+    /* Make the image take up the full card height */
+    width: 100%;
+    object-fit: cover;
+    /* Ensures the image fills the area without distortion */
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.carousel-two .card:hover .card-img {
+    transform: scale(1.3);
+}
+
+.carousel-two .owl-nav .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Optional: semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-two .owl-nav .prev-slide {
+    left: -30px;
+    /* Adjust this value as needed */
+}
+
+.carousel-two .owl-nav .next-slide {
+    right: -30px;
+    /* Adjust this value as needed */
+}
+.overlay-bg{
+    background-color: #0000007d;
+    padding: 10px;
+    width: auto;
+}
+/* .overlay-bg h5{
+    display: inline-block;
+   border-bottom: 2px solid #fff;
+   padding-bottom: 2px;
+   width: 90px;
+} */
+.nl-bg{
+    background-image: url('images/newsletter-bg-1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+.email-box{
+    border: 1px solid #7675759b;
+    border-radius: 25px;
+}
+.email-input{
+    background-color: #7675759b;
+    color: #fff;
+    border-radius: 25px 0px 0px 25px;
+    padding: 10px;
+}
+input.email-input:focus {
+    border: 2px solid #7675759b; /* Custom border color */
+    outline: none; /* Removes default outline */
+    box-shadow: 0 0 5px #7675759b; /* Optional shadow for a glow effect */
+}
+
+
+.email-input::placeholder{
+    color: #fff;
+}
+.btn-sub{
+    background-color: #7675759b;
+    color: #fff;
+    padding: 10px;
+    margin-left: 3px;
+    border-radius: 0px 25px 25px 0px;
+}
+.footer-icon i{
+    font-size: 30px !important;
+}
+.footer-icon li:nth-child(even) i{
+    font-size: 5px !important;
+}
+.footer-box{
+    background-color: #383838b5;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 60px 120px;
+    border-radius: 0px 0px 25px 25px;
+}
+.f-menu ul li{
+    line-height: 2;
+}
+.shop-btn{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    border: 2px solid #000;
+    padding: 10px;
+    text-decoration: none;
+}
+.shop-btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.overlay-bg{
+    padding: 5px 30px 5px 10px;
+}
+.mix-match-box{
+    padding: 50px;
+}
+.mm-option figure{
+    min-width: 150px;
+    min-height: 100px;
+}
+.mm-option figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-two .card{
+        width: 100% !important;
+    }
+}
+@media (max-width: 470px) {
+    .brand-intro {
+        width: 90% !important;
+    }
+}

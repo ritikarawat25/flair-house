@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bootstrap 5 Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="50px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Intro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Testimonial</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text head-icon">
+                            <span>
+
+                                <a
+                                    href="https://wa.me/9999999999?text=Hii%20I%20want%20to%20know%20more%20about%20your%20services."><i
+                                        class="fa-brands fa-square-whatsapp" title="Whatsapp Us"></i></a>
+                            </span>
+                            <span><i class="fa-solid fa-calendar-check" title="Book Your Appointment"></i></span>
+                            <span><i class="fa-solid fa-cart-shopping" title="Your Cart"></i></span>
+                            <i class="fa-solid fa-user" title="Your Account"></i>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <!-- <div class="carousel-item active">
+                    <img src="images/slider/img-1.jpg" class="d-block w-100" alt="Fashion Banner">
+                    <div class="carousel-caption d-none d-md-block text-dark ">
+                        <p class="h1 fw-bolder">Elysian Vogue</p>
+                        <p class="fst-italic">Elegance Crafted for the Modern Soul</p>
+                    </div>
+                </div> -->
+                <div class="carousel-item active">
+                    <img src="images/slider/img-2.jpg" class="d-block w-100" alt="Fashion Banner">
+                    <div class="carousel-caption d-none d-md-block text-light ">
+                        <p class="h1 fw-bolder">Get Trendy Wears</p>
+                        <p class="fst-italic">Don’t just wear fashion, embody it.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider/img-3.jpg" class="d-block w-100" alt="Fashion Banner">
+                    <div class="carousel-caption d-none d-md-block text-dark ">
+                        <p class="h1 fw-bolder">Jwellery, You Deserve!</p>
+                        <p class="fst-italic">Adorn in Elegance, Shine with Purpose.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid py-5 my-5 mx-auto brand-intro" style="width: 70%;">
+            <div class="d-flex align-items-center">
+                <div class="brand-logo">
+                    <img src="images/logo.png" alt="logo" class="border rounded-circle p-1" width="100px">
+                </div>
+                <div class="brand-name fst-italic ps-4">
+                    <h1>FLAIR HOUSE</h1>
+                    <p>Defining Style, Defining You</p>
+                </div>
+            </div>
+            <div class="py-2">
+                <p>Welcome to Flair House, where timeless elegance meets modern sensibilities. Each piece in our
+                    collection is meticulously crafted to elevate your style and express your individuality. We believe
+                    in the art of dressing, curating looks that celebrate sophistication, quality, and an effortless
+                    approach to fashion. At Flair House, fashion becomes more than just clothing—it’s an experience, a
+                    journey of self-expression.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container-fluid bg-light">
+            <div class="owl-carousel owl-theme carousel-one">
+                <div class="item py-4">
+                    <img src="images/partner-logo/chanel.png" alt="logo">
+                </div>
+                <div class="item py-4">
+                    <img src="images/partner-logo/dior.png" alt="logo">
+                </div>
+                <div class="item py-4">
+                    <img src="images/partner-logo/gucci.png" alt="logo">
+                </div>
+                <div class="item py-4">
+                    <img src="images/partner-logo/stradivarius-logo.png" alt="logo">
+                </div>
+                <div class="item py-4">
+                    <img src="images/partner-logo/zara.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container p-5 my-5">
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="pe-3">
+                        <h2>Categories</h2>
+                        <p>From elegant dresses and sophisticated tops to effortlessly chic bottoms and refined
+                            outerwear, our range is crafted to suit every occasion.</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="owl-carousel owl-theme carousel-two">
+                        <div class="item py-4">
+                            <div class="card bg-dark text-white">
+                                <img src="images/categories/bag.jpg" class="card-img" alt="Bag">
+                                <div class="card-img-overlay d-flex align-items-end">
+                                    <div class="overlay-bg">
+                                        <h5 class="card-title">Bags</h5>
+                                        <p class="card-text">120 Items <span><i
+                                                    class="fa-solid fa-arrow-right-long ps-2"></i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-4">
+                            <div class="card bg-dark text-white">
+                                <img src="images/categories/tops.jpg" class="card-img" alt="Tops">
+                                <div class="card-img-overlay d-flex align-items-end">
+                                    <div class="overlay-bg">
+                                        <h5 class="card-title">Tops</h5>
+                                        <p class="card-text">550 Items <span><i
+                                                    class="fa-solid fa-arrow-right-long ps-2"></i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-4">
+                            <div class="card bg-dark text-white">
+                                <img src="images/categories/bottoms.jpg" class="card-img" alt="Bottoms">
+                                <div class="card-img-overlay d-flex align-items-end">
+                                    <div class="overlay-bg">
+                                        <h5 class="card-title">Bottoms</h5>
+                                        <p class="card-text">433 Items <span><i
+                                                    class="fa-solid fa-arrow-right-long ps-2"></i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-4">
+                            <div class="card bg-dark text-white">
+                                <img src="images/categories/jwellery.jpg" class="card-img" alt="Jwellery">
+                                <div class="card-img-overlay d-flex align-items-end">
+                                    <div class="overlay-bg">
+                                        <h5 class="card-title">Jwellery</h5>
+                                        <p class="card-text">180 Items <span><i
+                                                    class="fa-solid fa-arrow-right-long ps-2"></i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-4">
+                            <div class="card bg-dark text-white">
+                                <img src="images/categories/footwear.png" class="card-img" alt="Footwear">
+                                <div class="card-img-overlay d-flex align-items-end">
+                                    <div class="overlay-bg">
+                                        <h5 class="card-title">Footwear</h5>
+                                        <p class="card-text">220 Items <span><i
+                                                    class="fa-solid fa-arrow-right-long ps-2"></i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row mix-match-box d-flex align-items-center">
+                <div class="col-lg-6">
+                    <figure style="max-width: 800px;"><img src="images/dummy-model-img.jpg" alt="model" width="100%"></figure>
+                </div>
+                <div class="col-lg-6 mm-option mt-2">
+                    <p>Mix and Match</p>
+                    <h2>Do Your Style With <br> Our New Feature</h2>
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <figure><img src="images/dummy-model-img-1.jpg" alt="Jacket" width="100%"></figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>Zara Floral <br> Bomber Jacket</h4>
+                            <p>Simple floral will give the beautiful effect on your look</p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <figure><img src="images/dummy-model-img-2.jpg" alt="Top" width="100%"></figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>Orange Knitted Top Xara</h4>
+                            <p>It will be super match colour touch with summer envelope handbag and bring a cooler for
+                                floral bomber jacket.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <figure><img src="images/dummy-model-img-3.jpg" alt="Skirt" width="100%"></figure>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>Zara Midi Plisket Skirt</h4>
+                            <p>Beautiful skirt made for you, the same colour with bomber jacket will bring you to high
+                                fashion. Perfect!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter ssection starts -->
+    <section>
+        <div class="container">
+            <div class="nl-bg p-3">
+                <div class="letter-box text-center pt-5">
+                    <h2>Join Our Newsletter</h2>
+                    <p>Be the first one who will know our latest product, popular stock, and big discount.</p>
+                    <div class="pt-3">
+                        <!-- <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form> -->
+                        <form class="form-inline d-flex email-box p-1" action="" method="post" id="subscribe-frm">
+                            <input class="form-control email-input" type="text" name="subscribe_email"
+                                placeholder="Email Address..." autocomplete="off">
+                            <div id="subscribe_email_validate"></div>
+                            <button type="submit" name="subscribe_submit" class="btn btn-sub">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newsletter ssection ends -->
+
+    <!-- Footer section starts -->
+
+    <section>
+        <div class="container footer-box">
+            <div class="row f-menu">
+                <div class="col-md-6 p-3">
+                    <figure style="width: 100px;"><img src="images/logo-w.png" alt="logo" width="100%"></figure>
+                    <!-- <h2>Flair House</h2> -->
+                    <p>Come and get us to make your daily outfit more perfect</p>
+                    <a href="#" class="shop-btn">Shop Now</a>
+                </div>
+                <div class="col-md-2 p-3">
+                    <h4 class="fw-bolder">Menu</h4>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>Shop</li>
+                            <li>Mix and Match</li>
+                            <li>Catalogue</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 p-3">
+                    <h4 class="fw-bolder">Help</h4>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>FAQ</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Conditions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 p-3">
+                    <h4 class="fw-bolder">Get App</h4>
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>App Store</li>
+                            <li>Google Play Store</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0">&#169; 2024. Flair House. All Rights Reserved</p>
+                </div>
+                <div class="col-md-6 footer-icon d-flex align-items-center justify-content-end">
+                    <ul class="list-unstyled mb-0 d-flex align-items-center">
+                        <li class="mx-2 mb-0"><i class="fa-brands fa-square-instagram"></i></li>
+                        <li class="mx-2 mb-0 text-muted d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-circle"></i>
+                        </li>
+                        <li class="mx-2 mb-0"><i class="fa-brands fa-square-facebook"></i></li>
+                        <li class="mx-2 mb-0 text-muted d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-circle"></i>
+                        </li>
+                        <li class="mx-2 mb-0"><i class="fa-brands fa-square-pinterest"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer section ends -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
