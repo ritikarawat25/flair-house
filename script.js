@@ -6,6 +6,8 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 2000,
         autoplayHoverPause: true,
+        autoplaySpeed: 800, // Speed of autoplay transitions
+        smartSpeed: 800,
         responsive: {
             0: {
                 items: 1
