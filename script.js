@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $(".carousel-two").owlCarousel({
         loop: true,
-        margin: 100,
+        margin: 60,
         nav: true,
         navText: ["<div class='nav-btn prev-slide'>&lt;</div>", "<div class='nav-btn next-slide'>&gt;</div>"],
         responsive: {
