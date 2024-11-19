@@ -191,6 +191,17 @@ input.email-input:focus {
 .pop-badge{
     border-radius: 70% !important;
 }
+.partner-logo .owl-carousel .owl-stage{
+    transition: transform 20s linear !important; /* Continuous scrolling */
+}
+.carousel-sale .owl-stage {
+    display: flex;
+    will-change: transform;
+}
+.carousel-sale p{
+    margin-bottom: 0px;
+    padding: 10px 10px;
+}
 
 
 
@@ -216,5 +227,12 @@ input.email-input:focus {
 @media (max-width: 470px) {
     .brand-intro {
         width: 90% !important;
+        padding-top: 0px !important;
+    }
+}
+@media (max-width: 575px){
+    .footer-box{
+        margin-bottom: 0px !important;
+        border-radius: 0px !important;
     }
 }
