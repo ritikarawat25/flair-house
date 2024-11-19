@@ -191,9 +191,7 @@ input.email-input:focus {
 .pop-badge{
     border-radius: 70% !important;
 }
-.partner-logo .owl-carousel .owl-stage{
-    transition: transform 20s linear !important; /* Continuous scrolling */
-}
+
 .carousel-sale .owl-stage {
     display: flex;
     will-change: transform;
